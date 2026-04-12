@@ -1,0 +1,38 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environments
+env/
+.env
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python caching and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Data files (optional, uncomment if you don't want datasets tracked)
+# *.csv
+# *.xlsx
+# *.json
