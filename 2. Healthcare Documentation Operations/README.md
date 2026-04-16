@@ -1,11 +1,11 @@
 
-# 🏥 Healthcare Documentation Operations Analytics
+# Healthcare Documentation Operations Analytics
 
-An end-to-end SQL Data Analytics and Engineering project that simulates a real-world healthcare operations environment. The project generates synthetic healthcare data, ingests it into a PostgreSQL database, and performs advanced SQL analytics to uncover operational inefficiencies, revenue leakage, and data quality issues.
+# Project Overview
 
+This project simulates the operational environment of a healthcare facility involving patients, doctors, medical scribes, clinical notes, and billing claims. The main goal is to evaluate clinical operations, detect revenue leakage, assess scribe productivity, optimize database queries, and track patient journeys.
 ---
-
-# 🚀 4-Layer Data Operations Strategy
+#  4-Layer Data Operations Strategy
 
 ## 🔷 Layer 1: Data Ingestion & Structuring
 
@@ -43,7 +43,7 @@ I developed key healthcare KPIs to monitor operational performance and financial
 
 ---
 
-## 🔷 Layer 4: Insights & Decision Support
+##  Layer 4: Insights & Decision Support
 
 I translated raw healthcare data into actionable business insights for operational improvement.
 
@@ -52,10 +52,8 @@ I translated raw healthcare data into actionable business insights for operation
 - Detected high claim rejection rates in specific specialties
 - Found productivity variations among medical scribes
 - Analyzed patient visit behavior and retention patterns
-
 ---
-
-# 🧠 Final Strategy
+# Final Strategy
 
 This project was designed as an end-to-end healthcare data operations system.
 
@@ -63,16 +61,9 @@ First, raw data was structured into a relational PostgreSQL database with proper
 Next, a data validation layer was implemented to identify critical issues such as missing billing claims, duplicate visits, and invalid diagnosis mappings, which directly impact revenue and operational accuracy.  
 On top of this, advanced SQL analytics were developed to generate key performance indicators including claim rejection rate, revenue trends, doctor performance, and patient retention.  
 Finally, these insights were used to highlight operational inefficiencies, improve data quality, and support better decision-making in a healthcare environment.
-
 ---
 
-# 📝 Project Overview
-
-This project simulates the operational environment of a healthcare facility involving patients, doctors, medical scribes, clinical notes, and billing claims. The main goal is to evaluate clinical operations, detect revenue leakage, assess scribe productivity, optimize database queries, and track patient journeys.
-
----
-
-# 🧩 Key Components
+#  Key Components
 
 ## 🔹 Synthetic Data Generation (`dataGenerate.py`)
 Uses Python, Pandas, and Faker to generate realistic healthcare datasets including:
@@ -107,7 +98,7 @@ A collection of SQL scripts designed for business intelligence and operational i
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 
@@ -135,7 +126,7 @@ A collection of SQL scripts designed for business intelligence and operational i
 
 ---
 
-# ⚙️ Setup and Installation
+#  Setup and Installation
 
 ## 1. Prerequisites
 - Python 3.8+
