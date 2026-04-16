@@ -4,7 +4,7 @@
 # Project Overview
 
 This project simulates the operational environment of a healthcare facility involving patients, doctors, medical scribes, clinical notes, and billing claims. The main goal is to evaluate clinical operations, detect revenue leakage, assess scribe productivity, optimize database queries, and track patient journeys.
----
+
 #  4-Layer Data Operations Strategy
 
 ## Layer 1: Data Ingestion & Structuring
@@ -16,7 +16,6 @@ I designed a structured healthcare database by ingesting raw CSV data into Postg
 - Converted raw data types (TEXT → TIMESTAMP/DATE where required)
 - Established primary and foreign key relationships across entities
 
----
 
 ## Layer 2: Data Quality & Validation
 
@@ -28,7 +27,6 @@ I implemented SQL-based validation checks to identify critical data quality issu
 - Duplicate visit records
 - Timestamp inconsistencies in clinical and billing data
 
----
 
 ## Layer 3: Business Metrics & Analytics
 
@@ -72,7 +70,6 @@ Uses Python, Pandas, and Faker to generate realistic healthcare datasets includi
 - 20,000 patient visits
 - Clinical notes, diagnoses, procedures, and billing claims
 
----
 
 ##  Database Ingestion (`data_push.py`)
 Automates ETL process using:
@@ -82,7 +79,6 @@ Automates ETL process using:
 
 This script loads generated CSV files into structured database tables.
 
----
 
 ##  Database Schema & Metadata (`meta_data.py`)
 Utility script to extract and validate database structure:
@@ -91,16 +87,12 @@ Utility script to extract and validate database structure:
 - Data types
 - Relationship validation
 
----
 
 ##  Advanced SQL Analytics (`queries/`)
 A collection of SQL scripts designed for business intelligence and operational insights.
 
----
 
 #  Project Structure
-
-```
 
 2. Healthcare Documentation Operations/
    ├── data/                               # Generated CSV datasets
@@ -122,9 +114,7 @@ A collection of SQL scripts designed for business intelligence and operational i
    ├── .gitignore
    └── README.md
 
-````
 
----
 
 #  Setup and Installation
 
@@ -138,7 +128,7 @@ A collection of SQL scripts designed for business intelligence and operational i
   - sqlalchemy
   - psycopg2-binary
 
----
+
 
 ## 2. Environment Setup
 
@@ -149,7 +139,6 @@ source env/bin/activate   # Windows: .\env\Scripts\activate
 pip install pandas numpy Faker sqlalchemy psycopg2-binary
 ````
 
----
 
 ## 3. Usage Guide
 
@@ -158,8 +147,6 @@ pip install pandas numpy Faker sqlalchemy psycopg2-binary
 ```bash
 python dataGenerate.py
 ```
-
----
 
 ### Step 2: Load Data into PostgreSQL
 
