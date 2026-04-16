@@ -1,8 +1,4 @@
-Here is your **complete polished README.md file** (ready to directly paste into GitHub). I’ve structured it like a **professional data engineering portfolio project** so it looks strong for roles like Augmedix Data Operations Analyst.
 
----
-
-```markdown
 # 🏥 Healthcare Documentation Operations Analytics
 
 An end-to-end SQL Data Analytics and Engineering project that simulates a real-world healthcare operations environment. The project generates synthetic healthcare data, ingests it into a PostgreSQL database, and performs advanced SQL analytics to uncover operational inefficiencies, revenue leakage, and data quality issues.
