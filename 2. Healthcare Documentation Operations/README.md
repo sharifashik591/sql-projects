@@ -7,7 +7,7 @@ This project simulates the operational environment of a healthcare facility invo
 ---
 #  4-Layer Data Operations Strategy
 
-## 🔷 Layer 1: Data Ingestion & Structuring
+## Layer 1: Data Ingestion & Structuring
 
 I designed a structured healthcare database by ingesting raw CSV data into PostgreSQL and enforcing schema consistency.
 
@@ -18,7 +18,7 @@ I designed a structured healthcare database by ingesting raw CSV data into Postg
 
 ---
 
-## 🔷 Layer 2: Data Quality & Validation
+## Layer 2: Data Quality & Validation
 
 I implemented SQL-based validation checks to identify critical data quality issues affecting healthcare operations and billing accuracy.
 
@@ -30,7 +30,7 @@ I implemented SQL-based validation checks to identify critical data quality issu
 
 ---
 
-## 🔷 Layer 3: Business Metrics & Analytics
+## Layer 3: Business Metrics & Analytics
 
 I developed key healthcare KPIs to monitor operational performance and financial health.
 
@@ -43,7 +43,7 @@ I developed key healthcare KPIs to monitor operational performance and financial
 
 ---
 
-##  Layer 4: Insights & Decision Support
+## Layer 4: Insights & Decision Support
 
 I translated raw healthcare data into actionable business insights for operational improvement.
 
@@ -52,7 +52,7 @@ I translated raw healthcare data into actionable business insights for operation
 - Detected high claim rejection rates in specific specialties
 - Found productivity variations among medical scribes
 - Analyzed patient visit behavior and retention patterns
----
+
 # Final Strategy
 
 This project was designed as an end-to-end healthcare data operations system.
@@ -61,11 +61,11 @@ First, raw data was structured into a relational PostgreSQL database with proper
 Next, a data validation layer was implemented to identify critical issues such as missing billing claims, duplicate visits, and invalid diagnosis mappings, which directly impact revenue and operational accuracy.  
 On top of this, advanced SQL analytics were developed to generate key performance indicators including claim rejection rate, revenue trends, doctor performance, and patient retention.  
 Finally, these insights were used to highlight operational inefficiencies, improve data quality, and support better decision-making in a healthcare environment.
----
+
 
 #  Key Components
 
-## 🔹 Synthetic Data Generation (`dataGenerate.py`)
+##  Synthetic Data Generation (`dataGenerate.py`)
 Uses Python, Pandas, and Faker to generate realistic healthcare datasets including:
 - 5,000+ patients
 - 50 doctors
@@ -74,7 +74,7 @@ Uses Python, Pandas, and Faker to generate realistic healthcare datasets includi
 
 ---
 
-## 🔹 Database Ingestion (`data_push.py`)
+##  Database Ingestion (`data_push.py`)
 Automates ETL process using:
 - PostgreSQL
 - SQLAlchemy
@@ -84,7 +84,7 @@ This script loads generated CSV files into structured database tables.
 
 ---
 
-## 🔹 Database Schema & Metadata (`meta_data.py`)
+##  Database Schema & Metadata (`meta_data.py`)
 Utility script to extract and validate database structure:
 - Table schemas
 - Column names
@@ -93,7 +93,7 @@ Utility script to extract and validate database structure:
 
 ---
 
-## 🔹 Advanced SQL Analytics (`queries/`)
+##  Advanced SQL Analytics (`queries/`)
 A collection of SQL scripts designed for business intelligence and operational insights.
 
 ---
