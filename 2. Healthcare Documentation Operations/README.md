@@ -1,5 +1,6 @@
 
 # Healthcare Documentation Operations Analytics
+[Documentation](https://docs.google.com/document/d/1rtAfTFGDxZ86dBlzjXS1FcP_6tH1gWc2UJSGkzuKXdw/edit?usp=sharing)
 
 # Project Overview
 
