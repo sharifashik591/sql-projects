@@ -93,7 +93,7 @@ A collection of SQL scripts designed for business intelligence and operational i
 
 
 #  Project Structure
-
+```
 2. Healthcare Documentation Operations/
    ├── data/                               # Generated CSV datasets
    ├── queries/                            # SQL analytics scripts
@@ -113,7 +113,7 @@ A collection of SQL scripts designed for business intelligence and operational i
    ├── meta_data.py                        # Database schema inspector
    ├── .gitignore
    └── README.md
-
+```
 
 
 #  Setup and Installation
